@@ -1,0 +1,13 @@
+prefix=/Users/alaeddine/dev/data_science_bootcamp/venv
+exec_prefix=/Users/alaeddine/dev/data_science_bootcamp/venv
+libdir=/Users/alaeddine/dev/data_science_bootcamp/venv/lib
+sharedlibdir=/Users/alaeddine/dev/data_science_bootcamp/venv/lib
+includedir=/Users/alaeddine/dev/data_science_bootcamp/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
